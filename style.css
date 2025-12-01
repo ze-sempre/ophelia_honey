@@ -109,6 +109,13 @@ nav .right a:hover {
     font-weight: 600;
     background-color: var(--background-color);
     border-radius: 0.5em;
+    transition: 0.3s;
+}
+
+.main-section .buy-button a:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    transform:translateX(10px);
 }
 
 /* SECTION 2 */
@@ -286,6 +293,97 @@ nav .right a:hover {
 .team .team-cards .card p {
     margin-bottom: 0.5em;
 }
+
+/** WHO WE ARE **/
+
+/* SECTION 1 */
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    margin-bottom: 6em;
+}
+
+.hero .image {
+    margin-bottom: 1em;
+    flex: 8;
+}
+
+.hero .image img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.hero .text {
+    margin: 0 3em;
+    flex: 2;
+}
+
+.hero .text h2 {
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+/* SECTION 2 */
+.source {
+    display: flex;
+    align-items: center;
+    margin: 6em 0;
+}
+
+.source .image {
+    flex: 6;
+}
+.source .image img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.source .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 3em;
+    flex: 4;
+}
+
+.source .text h3 {
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.source .text p {
+    font-size: 1.5em;
+}
+
+.source .text ul li {
+    font-size: 1.5em;
+    list-style-position: inside;
+}
+
+.source .text a {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 2em;
+    font-weight: 600;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    transition: 0.3s;
+    border: 2px solid var(--text-color);
+}
+
+.source .text a:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    transform:translateX(20px);
+}
+
+
 /* FOOTER */
 footer {
     display: flex;
