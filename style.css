@@ -275,7 +275,13 @@ nav .right a:hover {
     border: 2px solid var(--text-color);
     border-radius: 1em;
     margin-bottom: 2.5em;
+    transition: 0.3s ease-in-out;
     /* box-shadow: 0 4px 4px var(--shadow-color); */
+}
+
+.team .team-cards .card:hover {
+    color: var(--background-color);
+    background-color: var(--text-color);
 }
 
 .team .team-cards .card h3 {
@@ -397,7 +403,7 @@ footer {
     justify-content: flex-end;
     background-color: var(--text-color);
     color: var(--background-color);
-    height: 1024px;
+    height: 100vh;
 }
 
 footer .call-to-action {
